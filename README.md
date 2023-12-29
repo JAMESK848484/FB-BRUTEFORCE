@@ -40,7 +40,7 @@ python FB-ATTACK.py
 ```
 ## Usage
    ```
-       Usage: python ./FB-ATTACK.py [OPTIONS...]
+       Usage: python FB-ATTACK.py [OPTIONS...]
 Examples:
      |--------
      | python FB-ATTACK.py -t Victim@gmail.com -w /usr/share/wordlists/rockyou.txt
