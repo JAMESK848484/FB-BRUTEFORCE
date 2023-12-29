@@ -3,9 +3,7 @@
 **⚠️Misuse of information on this website/tool may result in criminal charges against the individuals concerned.  The authors and WHITEDH4CKER will not be held responsible in case any criminal charges are filed against any person misusing the information on the website/tool. This website/tool is designed for educational purposes only.⚠️**
 
 ## Screenshots:
-![App Screenshot]
-***
-![App Screenshot]
+![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/fb-bruteforce.png)
 ***
 
 ## INSTALLATION:
