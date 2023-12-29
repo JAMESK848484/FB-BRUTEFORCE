@@ -3,118 +3,57 @@
 **⚠️Misuse of information on this website/tool may result in criminal charges against the individuals concerned.  The authors and WHITEDH4CKER will not be held responsible in case any criminal charges are filed against any person misusing the information on the website/tool. This website/tool is designed for educational purposes only.⚠️**
 
 ## Screenshots:
-![App Screenshot](https://github.com/WHITEDH4CKER/MRDDOS/blob/main/Screenshots/ddos1.png) 
+![App Screenshot]
 ***
-![App Screenshot](https://github.com/WHITEDH4CKER/MRDDOS/blob/main/Screenshots/ddos2.png)
+![App Screenshot]
 ***
 
 ## INSTALLATION:
-   #### ➡️use the following commands for Linux:
+   #### ➡️use the following commands for Termux & Linux:
 
 ```shell script
-sudo apt update && apt upgrade
+apt update && apt upgrade
 ```
 
 ```shell script
-sudo apt-get install python-pip
+apt-get install python-pip
 ```
 
 ```shell script
-sudo pip install colorama termcolor requests
+pip install colorama termcolor requests
 ```
 
 ```shell script
-git clone https://github.com/WHITEDH4CKER/MRDDOS
+pip nistall mechanize
 ```
 
 ```shell script
-cd MRDDOS
+git clone https://github.com/WHITEDH4CKER/FB-BRUTEFORCE
 ```
 
 ```shell script
-chmod +x *
+cd FB-BRUTEFORCE
 ```
 
 ```shell script
-./install-attacker
+python FB-ATTACK.py
 ```
-
 ## Usage
-   #### DODOS_1
    ```
-        USAGE: python MRDDOS_1.py <url> [OPTIONS]
-   OPTIONS:
-        Flag           Description                     Default
-        -u, --useragents   File with user-agents to use                     (default: randomly generated)
-        -w, --workers      Number of concurrent workers                     (default: 50)
-        -s, --sockets      Number of concurrent sockets                     (default: 30)
-        -m, --method       HTTP Method to use 'get' or 'post'  or 'random'  (default: get)
-        -d, --debug        Enable Debug Mode [more verbose output]          (default: False)
-        -n, --nosslcheck   Do not verify SSL Certificate                    (default: True)
-        -h, --help         Shows this help
+       Usage: python ./FB-ATTACK.py [OPTIONS...]
+Examples:
+     |--------
+     | python FB-ATTACK.py -t Victim@gmail.com -w /usr/share/wordlists/rockyou.txt
+     |--------
+     | python FB-ATTACK.py -t 100001013078780 -w C:\\Users\\Me\\Desktop\\wordlist.txt
+     |--------
+     | python FB-ATTACK.py -t Victim@hotmail.com -w D:\\wordlist.txt -p 144.217.101.245:3129
+     |--------
+     | python FB-ATTACK.py -t Victim@gmail.com -s 1234567
+     |--------
+     | python FB-ATTACK.py -g https://www.facebook.com/Victim_Profile
+     |--------
 ```
-   #### DDOS_2 
-```
-        USAGE: python MRDDOS_2.py -t [target] -p [port] -t [number threads]
-   OPTIONS:
-        Flag           Description
-  -h, --help       show this help message and exit
-  -d, <ip|domain>   Specify your target such an ip or domain name
-  -t ,<float>       Set timeout for socket
-  -T, int>         Set threads number for connection (default = 1000)
-  -p, <int>         Specify port target (default = 80) |Only required with pyslow attack|
-  -s, <int>         Set sleep time for reconnection
-  -i, <ip address>  Specify spoofed ip unless use fake ip
-  -Request         Enable request target
-  -Synflood        Enable synflood attack
-  -Pyslow          Enable pyslow attack
-  --fakeip         Option to create fake ip if not specify spoofed ip
-
-Example:
-    python MRDDOS_2.py -d www.example.com -p 80 -T 2000 -Pyslow
-```
-
-#### ➡️use the following commands for Termux:
-
-```shell script
-pkg update && pkg upgrade -y
-```
-
-```shell script
-pkg install git -y
-```
-
-```shell script
-git clone https://github.com/WHITEDH4CKER/MRDDOS
-```
-
-```shell script
-cd MRDDOS
-```
-
-```shell script
-apt install python -y
-```
-
-```shell script
-pip install colorama
-```
-
-```shell script
-chmod +x *
-```
-
-```shell script
-./install-attacker
-```
-
-```shell script
-python MRDDOS_1.py
-```
-***
-![App Screenshot](https://github.com/WHITEDH4CKER/MRDDOS/blob/main/Screenshots/termux.jpg)
-***
-
 ## License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
 
