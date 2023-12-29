@@ -181,7 +181,7 @@ if __name__ == "__main__":
     main()
                 
 parse = optparse.OptionParser(wi+"""
-Usage: python ./FB-ATTACK.py [OPTIONS...]
+Usage: python FB-ATTACK.py [OPTIONS...]
 https://github.com/WHITEDH4CKER/FB-BRUTEFORCE  
 
 Examples:
