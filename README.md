@@ -24,7 +24,7 @@ pip install colorama termcolor requests
 ```
 
 ```shell script
-pip nistall mechanize
+pip install mechanize
 ```
 
 ```shell script
