@@ -121,7 +121,7 @@ class FaceBoom(object):
         else:print("\n")
 
 
-   @staticmethod
+    @staticmethod
     def updateFaceBoom():
         if not os.path.isfile(versionPath):
              errMsg("Unable to check for updates: please re-clone the script to fix this problem")
