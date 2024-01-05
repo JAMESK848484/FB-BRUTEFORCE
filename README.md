@@ -18,11 +18,7 @@
 #### ➡️ Type the following commands To use FB-BRUTEFORCE in Termux:
 
 ```shell script
-apt update && apt upgrade
-```
-
-```shell script
-apt install curl
+apt update && apt upgrade -y
 ```
 
 ```shell script
@@ -40,6 +36,7 @@ pip install mechanize
 ```shell script
 pip install colorama termcolor requests
 ```
+
 ```shell script
 git clone https://github.com/WHITEDH4CKER/FB-BRUTEFORCE
 ```
