@@ -104,11 +104,11 @@ class FaceBoom(object):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---]        """+wi+"""FB-ATTACK's AI"""+gr+"""        [---]
+[---] """+wi+"""WHITEDH4CKER"""+gr+"""  [---]
 ==================================
-[---]  """+wi+"""BruteForce Facebook  """+gr+""" [---]
+[---]  """+wi+"""FB-BRUTEFORCE"""+gr+""" [---]
 ==================================
-[---]         """+yl+"""CONFIG"""+gr+"""         [---]
+[---]         """+yl+"""CONFIG"""+gr+""" [---]
 ==================================
 [>] Target      :> """+wi+target+gr+"""
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
