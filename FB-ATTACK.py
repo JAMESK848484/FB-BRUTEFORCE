@@ -104,11 +104,11 @@ class FaceBoom(object):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---]  """ + wi + """ WHITEDH4CKER """ + gr + """  [---]
+[---]  """ + wi + """ WHITEDH4CKER """ + gr + """        [---]
 ==================================
-[---]  """ + wi + """ FB-BRUTEFORCE """ + gr + """ [---]
+[---]  """ + wi + """ FB-BRUTEFORCE """ + gr + """       [---]
 ==================================
-[---]         """ + yl + """ CONFIG """ + gr + """ [---]
+[---]         """ + yl + """ CONFIG """ + gr + """       [---]
 ==================================
 [>] Target      :> """ + wi+target + gr + """
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
@@ -116,12 +116,12 @@ class FaceBoom(object):
         if not single_passwd:
             print(gr+"""\
 =================================="""+wi+"""
-[~] """+yl+"""Brute"""+rd+""" ForceATTACK: """+gr+"""Enabled """+wi+"""[~]"""+gr+"""
+[~] """+yl+"""Brute"""+rd+""" FB-ATTACK:  """+gr+"""Enabled """+wi+"""[~]"""+gr+"""
 ==================================\n"""+wi)
         else:print("\n")
 
 
-    @staticmethod
+   @staticmethod
     def updateFaceBoom():
         if not os.path.isfile(versionPath):
              errMsg("Unable to check for updates: please re-clone the script to fix this problem")
