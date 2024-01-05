@@ -57,11 +57,11 @@ python FB-ATTACK.py
 #### ➡️ Type the following commands To use FB-BRUTEFORCE in linux:
 
 ```shell script
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade
 ```
 
 ```shell script
-apt-get install python-pip
+sudo apt install python3-pip
 ```
 
 ```shell script
