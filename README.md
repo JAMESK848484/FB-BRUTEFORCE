@@ -5,7 +5,7 @@
 ## Screenshots:
 ![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/Screenshot_2.png)
 ***
-![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/fb-scrneenshots.png)
+![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/liveScreenshot.png)
 ***
 
 ## INSTALLATION:
