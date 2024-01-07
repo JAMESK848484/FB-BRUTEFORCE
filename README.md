@@ -7,6 +7,8 @@
 ***
 ![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/liveScreenshot.png)
 ***
+![App Screenshot](https://github.com/WHITEDH4CKER/FB-BRUTEFORCE/blob/main/Screenshots/Termux.jpg)
+***
 
 ## INSTALLATION:
 ### For Termux
