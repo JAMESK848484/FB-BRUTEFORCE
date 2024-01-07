@@ -93,6 +93,12 @@ Examples:
      |python FB-ATTACK.py -t target@gmail.com -s checkpassword
      |-------->
 ```
+
+## 🔐 Use Protection Against Attacker:
+👉 Use Strong Password (which contains standard password character, number and symbols + longest as possible) 
+👉 Use 2F Authentication.
+👉 Make location based login (browser based)
+
 ## License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
 
