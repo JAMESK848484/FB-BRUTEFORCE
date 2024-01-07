@@ -95,9 +95,9 @@ Examples:
 ```
 
 ## 🔐 Use Protection Against Attacker:
-👉 Use Strong Password (which contains standard password character, number and symbols + longest as possible) 
-👉 Use 2F Authentication.
-👉 Make location based login (browser based)
+* 👉 Use Strong Password (which contains standard password character, number and symbols + longest as possible) 
+* 👉 Use 2F Authentication.
+* 👉 Make location based login (browser based)
 
 ## License
 This software is distributed under the GNU General Public License version 3 (GPLv3)
