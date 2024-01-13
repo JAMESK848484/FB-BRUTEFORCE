@@ -1,4 +1,7 @@
 #!/usr/bin/python
+## DEVELOPED BY WHITEDH4CKER
+## Don't steal my code read license21  
+## if you use any part of code then give me credit
 
 import socket, sys, os, re, random, optparse, time
 if sys.version_info.major <= 2:import httplib
