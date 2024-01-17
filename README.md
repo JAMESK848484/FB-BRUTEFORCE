@@ -15,7 +15,6 @@
 > **👉Termux version from Play Store is not supported since 2019, please use the latest version from F-Droid Store!Download Now:📥 https://f-droid.org/packages/com.termux/**
 
 ### [📸👉 Watch video 1](https://www.instagram.com/reel/C1vTtrLSxv-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
-### [📸👉 Watch video 2](https://www.instagram.com/reel/C1y-Ng8yniu/?igsh=Yjh3NnBkZGZ6YTI=)
 #### ➡️ Type the following commands To use FB-BRUTEFORCE in Termux:
 
 ```shell script
