@@ -82,17 +82,17 @@ python FB-ATTACK.py
 ```
 ## Usage
    ```
-          Usage: python FB-ATTACK.py -t "target_id" -w "wordlist_location" 
+          Usage: python FB-ATTACK.py -t "target_id" -w "wordlist_location"
 Examples:
-     |-------->
-     | python FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id
-     |-------->
-     | python FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt 
-     |-------->
-     | python FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt
-     |-------->
-     |python FB-ATTACK.py -t target@gmail.com -s checkpassword
-     |-------->
+     |===============================================================================|
+     | python FB-ATTACK.py -g https://facebook.com/target_profile_url_for_get_id     |
+     |===============================================================================|
+     | python FB-ATTACK.py -t 100001013078780 -w 10MPASS.txt                         |
+     |===============================================================================|
+     | python FB-ATTACK.py -t target@gmail.com -w 10MPASS.txt                        |
+     |===============================================================================|
+     |python FB-ATTACK.py -t target@gmail.com -s checkpassword                       |
+     |===============================================================================|
 ```
 
 ## 🔐 Use Protection Against Attacker:
